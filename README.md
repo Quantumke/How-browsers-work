@@ -48,6 +48,8 @@ This is the general workflow of the rendering engine
 2. The render tree contains rectangles with visual attributes like color and dimensions. The rectangles are in the right order to be displayed on the screen.
 3. After the construction of the render tree it goes through a layout process. This means giving each node the exact coordinates where it should appear on the screen.
 4. The next stage is painting–the render tree will be traversed and each node will be painted using the UI backend layer. 
+Graphical display of the steps.
+![alt text](http://arvindr21.github.io/howBrowserWorks/imgs/flow2.png "How brosers work 2")
 
 ## Parsing
 Parsing a document means translating it to a structure the code can use. The result of parsing is usually a tree of nodes that represent the structure of the document. This is called a parse tree or a syntax tree.
