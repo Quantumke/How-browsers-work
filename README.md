@@ -106,6 +106,7 @@ CSS2 defines the order of the painting process. This is actually the order in wh
 3.  border
 4. children
 5. outline
+FInally all the contents are displayed in the UI or   the elements are prited on the screen.
 
 #REFERENCES 
 1. http://cssparser.sourceforge.net/
